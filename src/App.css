@@ -3,16 +3,18 @@
     padding: o;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: #5871B2; */
     
 }
 body {
     background-color: azure;
+    background-color: #5871B2;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Change the background color as needed */
+    /* background-color: #333; Change the background color as needed */
     padding: 2% ; /* Adjust padding as needed */
 }
 
@@ -22,7 +24,7 @@ body {
     padding: 0; /* Remove default padding */
 }
 
-ul {
+.nav-link {
     list-style: none; /* Remove list bullets */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -30,16 +32,19 @@ ul {
     justify-content: space-around;
 }
 
-li {
+.nav-link li {
     margin-right: 50px; /* Adjust spacing between menu items */
 }
 
-a {
+.nav-link a {
     text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Change the link color as needed */
+    color: black; /* Change the link color as needed */
+    background-color: #D9D9D9;
+    padding: 5px 10px; /* Optional: Add padding to increase the clickable area */
+    border-radius: 20px;
 }
 
-a:hover {
+.nav-link a:hover {
     background-color: blue; /* Change background color on hover */
     padding: 5px 10px; /* Optional: Add padding to increase the clickable area */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
@@ -50,29 +55,41 @@ a:hover {
     justify-content: space-evenly;
     /* background-color: rgb(18, 202, 85); */
     width: 60vw;
-    margin-left: 20vw;
+    margin-left: 15vw;
     margin-top: 5vh;
 }
 .introduction {
-    height: 30vh;
+    height: auto;
     width: 30vw;
-    /* background-color: rgb(134, 130, 123); */
+    background-color: #D9D9D9;
     padding: 15px;
-    margin-top: 20vh;
+    margin-top: 1.5vh;
+    font-size: 200%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
     
 }
 
 .introduction button {
     padding: 1%;
     margin: 7%;
-    background-color: blue;
     border-radius: 15px;
     font-size: larger;
-    color: white;
+    color: black;
     box-shadow: 25px;
+    background-color: transparent; /* Set the initial background color to transparent */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
 }
+
+.introduction button:hover {
+    background-color: blue; /* Change background color to blue on hover */
+}
+
 .image {
-    background-color: white;
+    background-color: transparent; /* Set the background color to transparent */
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+    /* background-color: #5871B2; */
     border-radius: 15px;
     /* border: solid blue; Note: The border style value should be specified (e.g., '1px solid blue'). */
     /* height: 600px; */
@@ -82,4 +99,7 @@ a:hover {
 
 .image img {
     box-shadow: 50px;
+    border-radius: 20px;
+    background-color: #5871B2;
+    /* box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5); */
 }

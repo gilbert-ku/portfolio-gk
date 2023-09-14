@@ -12,7 +12,7 @@ function NavBar() {
             <BrowserRouter>
                 <nav className="navbar">
                     <h1 className="logo">gilbert~ku</h1>
-                    <ul>
+                    <ul className="nav-link">
                         <li><Link to="/"> Home</Link></li>
                         <li><Link to="/Portfolio">Portfolio</Link></li>
                         <li><Link to="/Blog">Blog</Link></li>

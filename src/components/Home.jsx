@@ -9,7 +9,7 @@ function Home(){
                     <p>I am a </p>
                     <h2>Student/Software engineer</h2>
                     <br />
-                    <p>I am a full-stack Software developer and a iu/ux deginer. I am currently learning back-end framework (Flask) at Moringa school</p>
+                    <p>I am a full-stack Software developer and a iu/ux deginer. I am currently learning back-end framework (Flask) at Moringa school.</p>
                     <button>Download Resume</button>
                 </div>
                     
@@ -22,6 +22,8 @@ function Home(){
                 </div>
                 
             </div>
+
+
                
             
             
