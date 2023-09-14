@@ -23,20 +23,21 @@ function Contact(){
             <div>
                 <form action="">
                     <label>YOUR NAME</label> <br />
-                        <input type="text" placeholder="Enter your name"/>
-                        <br />
+                    <input type="text" placeholder="Enter your name" required />
+                    <br />
                     <label>PHONE NUMBER</label> <br />
-                        <input type="number"placeholder="+254700000000" />
-                        <br />
-                    <label >EMAIL</label><br />
-                        <input type="email" placeholder="examp@email.com"/>
-                        <br />
-                    <label >SUBJECT</label><br />
-                        <input type="text"placeholder="subject" />
-                        <br />
-                    <label >YOUR MESSAGE</label><br />
-                        <input type="message" placeholder="Message"/>
-
+                    <input type="tel" placeholder="+254700000000" required />
+                    <br />
+                    <label>EMAIL</label><br />
+                    <input type="email" placeholder="example@email.com" required />
+                    <br />
+                    <label>SUBJECT</label><br />
+                    <input type="text" placeholder="Subject" required />
+                    <br />
+                    <label>YOUR MESSAGE</label><br />
+                    <textarea placeholder="Message" rows="4" required></textarea>
+                    <br />
+                    <input type="submit" value="Submit" />
                 </form>
             </div>
         </div>
