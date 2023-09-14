@@ -18,7 +18,9 @@ function NavBar() {
                         <li><Link to="/Blog">Blog</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
                     </ul>
+                    
                 </nav>
+                <hr />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Portfolio" element={< Portfolio/>} />
