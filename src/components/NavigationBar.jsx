@@ -10,15 +10,15 @@ function NavBar() {
     return (
         <>
             <BrowserRouter>
-                <nav>
-                    <h1>gilbert~ku</h1>
+                <nav className="navbar">
+                    <h1 className="logo">gilbert~ku</h1>
+                    <ul>
+                        <li><Link to="/"> Home</Link></li>
+                        <li><Link to="/Portfolio">Portfolio</Link></li>
+                        <li><Link to="/Blog">Blog</Link></li>
+                        <li><Link to="/Contact">Contact</Link></li>
+                    </ul>
                 </nav>
-                <ul>
-                    <li><Link to="/"> Home</Link></li>
-                    <li><Link to="/Portfolio">Portfolio</Link></li>
-                    <li><Link to="/Blog">Blog</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                </ul>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Portfolio" element={< Portfolio/>} />

@@ -1,0 +1,85 @@
+
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: azure;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change the background color as needed */
+    padding: 2% ; /* Adjust padding as needed */
+}
+
+.logo {
+    color: #fff; /* Change the color as needed */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+ul {
+    list-style: none; /* Remove list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 50px; /* Adjust spacing between menu items */
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Change the link color as needed */
+}
+
+a:hover {
+    background-color: blue; /* Change background color on hover */
+    padding: 5px 10px; /* Optional: Add padding to increase the clickable area */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(18, 202, 85); */
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+.introduction {
+    height: 30vh;
+    width: 30vw;
+    /* background-color: rgb(134, 130, 123); */
+    padding: 15px;
+    margin-top: 20vh;
+    
+}
+
+.introduction button {
+    padding: 1%;
+    margin: 7%;
+    background-color: blue;
+    border-radius: 15px;
+    font-size: larger;
+    color: white;
+    box-shadow: 25px;
+}
+.image {
+    background-color: white;
+    border-radius: 15px;
+    /* border: solid blue; Note: The border style value should be specified (e.g., '1px solid blue'). */
+    /* height: 600px; */
+    box-shadow: 20px; /* Note: The box-shadow property should have more values, such as horizontal and vertical offsets and spread radius. */
+}
+
+
+.image img {
+    box-shadow: 50px;
+}
