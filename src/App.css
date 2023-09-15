@@ -219,3 +219,106 @@ body {
   }
 
 
+  .contact-main{
+    /* background-color: #D9D9D9; */
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20vw;
+    margin-top: 5vh;
+  }
+
+  .contact-info{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+  }
+  .contact-info .cont-img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .form-container {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+
+      /* Basic CSS styling for the form */
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="Message"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    input[type="text"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    input[type="Message"]:focus {
+        outline: none;
+        border: 1px solid #007BFF;
+        
+        }
+    /* Center the submit button */cards
+    input[type="submit"] {
+        display: block;
+        margin-top: 20px;
+        /* margin: 0 auto; */
+        background-color: #D9D9D9;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 70%;
+
+    }
+    input[type="submit"]:hover {
+        background-color: blue;
+        
+   }
+
+   .C {
+    text-align: center;
+    color: #D9D9D9;
+    padding: 5px;
+    margin-top: 5px;
+   }
+
+   .C-w {
+    text-align: center;
+   }
+
+
+.cards {
+  display: flex;
+  width: 70vw;
+  margin-left: 10vw;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cards img {
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card-description {
+  border: 3px solid black;
+  width: 20vw;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+}
