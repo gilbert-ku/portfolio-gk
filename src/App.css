@@ -343,14 +343,38 @@ body {
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
 }
 
+.feedback-head {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+.main-feedback {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #D9D9D9;
+  width: 80vw;
+  margin-left: 10vw; 
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.main-feedback img {
+  margin-left: 10vw;
+  margin-top: 2vh;
+  padding: 10px;
+  border-radius: 20px;
+}
 
 .feedback-form {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
+  background-color: #5871B2;
   border-radius: 5px;
+  margin-top: 2vh;
+
 }
 
 /* Style for labels */
@@ -388,15 +412,18 @@ textarea {
 
 /* Style for the submit button */
 .feedbackbtn {
-  background-color: #007bff; /* Blue button color */
-  color: white;
+  background-color: #D9D9D9; /* Blue button color */
+  color: black;
   padding: 10px 20px;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
+  
+
 }
 
 /* Style for the submit button on hover */
 .feedbackbtn:hover {
   background-color: #0056b3; /* Darker blue color on hover */
 }
+

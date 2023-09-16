@@ -49,6 +49,7 @@ function Portfolio() {
                                                 <li>Client-friendly filtering options for search, enabling users to find the perfect travel experiences that suit their preferences.</li>
                                             </ol>
                                         <p>With React as our chosen programming language, we've built a modern and dynamic platform to bridge the gap between tourists and local tourism companies, creating a seamless travel planning and booking experience for all.</p>
+                                        <p><em><strong>Group~work</strong></em></p>
                             </div>
                             <img src="/images/Screenshot from 2023-09-15 13-36-30.png" alt="Go Travel" width="600px"/>
 
@@ -73,45 +74,50 @@ function Portfolio() {
                             </div>
                     </div>
 
-    <div className="feedback-form">
-        <form action="" method="post">
-          {/* Dropdown for feedback type */}
-          <label htmlFor="feedback-type">Select Feedback Type:</label>
-          <select
-            name="feedback-type"
-            id="feedback-type"
-            value={feedbackType}
-            onChange={handleFeedbackTypeChange}
-          >
-            <option value="anonymous">Send anonymous feedback</option>
-            <option value="named">Enter Your Name</option>
-          </select>
-          {/* <br /> */}
+        <h1 className='feedback-head'>I'd love to here your feedback 😊</h1>
+            <div className='main-feedback'> 
+            <img src="/images/daria-nepriakhina-zoCDWPuiRuA-unsplash (1).jpg" alt="feedback" width="400px"/>
+                <div className="feedback-form">
+                    <form action="" method="post" >
+                    {/* Dropdown for feedback type */}
+                    <label htmlFor="feedback-type">Select Feedback Type:</label>
+                    <select
+                        name="feedback-type"
+                        id="feedback-type"
+                        value={feedbackType}
+                        onChange={handleFeedbackTypeChange}
+                    >
+                        <option value="anonymous">Send anonymous feedback</option>
+                        <option value="named">Enter Your Name</option>
+                    </select>
+                    {/* <br /> */}
 
-          {/* Input field for the name (only shown if "Enter Your Name" is selected) */}
-          {isNameVisible && (
-            <div>
-              <label htmlFor="name">Your Name:</label>   
-              {/* <br /> */}
-              <input type="text" id="name" name="name" placeholder="Enter your name" />
+                    {/* Input field for the name (only shown if "Enter Your Name" is selected) */}
+                    {isNameVisible && (
+                        <div>
+                        <label htmlFor="name">Your Name:</label>   
+                        {/* <br /> */}
+                        <input type="text" id="name" name="name" placeholder="Enter your name" />
+                        </div>
+                    )}
+
+                    {/* Textarea for feedback message */}
+                    {/* <label htmlFor="feedback-message">Feedback:</label> */}
+                    <textarea
+                        id="feedback-message"
+                        name="feedback-message"
+                        placeholder="Message"
+                        rows="4"
+                        required
+                    ></textarea>
+
+                    {/* Submit button */}
+                    <br />
+                    <input type="submit" value="Submit Feedback" className="feedbackbtn"/>
+                    </form>
+                </div>
             </div>
-          )}
 
-          {/* Textarea for feedback message */}
-          {/* <label htmlFor="feedback-message">Feedback:</label> */}
-          <textarea
-            id="feedback-message"
-            name="feedback-message"
-            placeholder="Message"
-            rows="4"
-            required
-          ></textarea>
-
-          {/* Submit button */}
-          <br />
-          <input type="submit" value="Submit Feedback" className="feedbackbtn"/>
-        </form>
-    </div>
         </div>
         
         
