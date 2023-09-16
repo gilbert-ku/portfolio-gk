@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     /* background-color: #5871B2; */
+    font-family: 'Mooli', sans-serif;
     
 }
 body {
@@ -22,6 +23,7 @@ body {
     color: #fff; /* Change the color as needed */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    font-family: 'Pacifico', cursive;
 }
 
 .nav-link {
@@ -428,6 +430,7 @@ textarea {
 }
 
 .About-me {
+  margin-top: 5vh;
   margin-left: 5vw;
   width: 20vw;
   border-radius: 20px;
